@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "stylelint-config-airbnb",
+    "stylelint-config-standard"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "declaration-empty-line-before": null,
+    "declaration-property-value-blacklist": null
+  }
+}

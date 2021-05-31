@@ -1,5 +1,10 @@
-# web-starter-kit
+#WEB Starter Kit
 
-Стартовый шаблон для верстки
+Нужно настроить "stylelint-config-rational-order"
 
-И тут
+"rules": {
+    "order/properties-order": [],
+    "plugin/rational-order": [true, {
+      "empty-line-between-groups": true
+    }]
+}
